@@ -8,7 +8,7 @@ function getPixeles() {
   if (valor > 100) {
     alert("Máximo 100 si no quieres que te explote el navegador, crack");
   } else if (valor < 0) {
-    alert("Quien te crees? Víctor Verdú?");
+    alert("Pórtate bien...");
   } else {
     // ajustamos las cuadrículas según el valor que nos de el usuario
     container.style.gridTemplateColumns = `repeat(${valor}, 1fr)`;
